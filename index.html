@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Zongshen Mu's HomePage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+  </head>
+
+<!-- NAVBAR
+================================================== -->
+  <body>        
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Academic Personal Website</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav ">
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Publication</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Experiences</a></li>
+                <!-- <li><a href="#">Misc.</a></li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    <div class="container">
+      <!-- Imgae
+    ================================================== -->
+       <img src="./img/bg.png" class="img-responsive" alt="this is a bg">    
+
+    <!-- personal introduction
+    ================================================== -->
+    <h1>About</h1>
+    <div class="media">
+      <div class="media-left">
+          <img src="./img/portrait.png" class="media-object img-rounded" style="width:150px">
+          <table class="table table-condensed">
+                <tr>
+                    <th><img src="./img/github.png" class="media-object img-rounded" style="width:20px"></th>
+                    <th><img src="./img/gmail.png" class="media-object img-rounded" style="width:20px"></th>
+                    <th><img src="./img/weibo.png" class="media-object img-rounded" style="width:20px"></th>
+                    <th><img src="./img/twitter.png" class="media-object img-rounded" style="width:20px"></th>
+                </tr>
+          </table>
+  	  </div>
+  	  <div class="media-body">
+    	<p class="lead">Hi! I am a PhD student in Department of Computer Science, Stanford University. I'm advised by Prof. Jure Leskovec.
+In the past, I have been fortunate enough to work with Prof. Stefano Ermon and Prof. David Lobell as a summer intern. In Tsinghua, I have worked on Machine Learning supervised by Prof. Jun Zhu. 
+My research focuses on developing Machine Learning algorithms for graph/relational structured data, including generating/optimizing graph structures, developing new graph neural network architectures, and applying these techniques in various domains.</p>
+  	  </div>
+    </div>
+
+      <!-- recent news
+    ================================================== -->
+    <h1>News</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="./img/nips2019.jpg" alt="NIPS 2019">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>NIPS 2019</h1>
+              <p>Vancouver Convention Center, Vancouver CANADA Sun Dec 8th through Sat the 14th, 2019</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="./img/AAAI2019.png" alt="AAAI 2019">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>AAAI 2019</h1>
+              <p>January 27 – February 1, 2019 at the Hilton Hawaiian Village, Honolulu, Hawaii, USA</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="./img/ACMMM2019.png" alt="ACMMM 2019">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>ACMMM 2019</h1>
+              <p>21 - 25 October 2019, Nice, France</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Important Dates</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <!-- publications
+    ================================================== -->
+    <h1>Publications</h1>
+    <ul class="list-group">
+        <li class="list-group-item">[1]LINE- Large-scale Information Network Embedding</li>
+        <li class="list-group-item">[2]Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition</li>
+        <li class="list-group-item">[3]Spatio-Temporal Graph Convolutional Networks- A Deep Learning Framework for Traffic Forecasting</li>
+        <li class="list-group-item">[4]Structural-RNN- Deep Learning on Spatio-Temporal Graphs</li>
+        <li class="list-group-item">[5]Traffic Graph Convolutional Recurrent Neural Network- A Deep Learning Framework for Network-Scale Traffic Learning and Forecasting</li>
+    </ul>    
+    
+    <!-- projects
+    ================================================== -->
+      <h1>Projects</h1>
+      <!-- START THE FEATURETTES -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3>Deep Multi-View Spatial-Temporal Network for Taxi Demand Prediction</h3>
+          <p class="lead">Taxi demand prediction is an important building block to en- abling intelligent transportation systems in a smart city. An accurate prediction model can help the city pre-allocate re- sources to meet travel demand and to reduce empty taxis on streets which waste energy and worsen the traffic conges- tion. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./img/1.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h3>Diffusion convolutional recurrent neural network- Data-driven traffic forecasting.pdf</h3>
+          <p class="lead">Spatiotemporal forecasting has various applications in neuroscience, climate and transportation domain. Traffic forecasting is one canonical example of such learn- ing task. </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./img/2.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3>GaAN: Gated Attention Networks for Learning on Large and Spatiotemporal Graphs</h3>
+          <p class="lead">We propose a new network architecture, Gated Attention Networks (GaAN), for learning on graphs. Unlike the traditional multi-head at- tention mechanism, which equally consumes all attention heads, GaAN uses a convolutional sub-network to control each attention head’s importance. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./img/3.png" alt="Generic placeholder image">
+        </div>
+      </div>
+      <!-- /END THE FEATURETTES -->
+
+
+    <!-- experiences
+    ================================================== -->
+    <h1>Experiences</h1>
+    <ul class="list-group">
+        <li class="list-group-item">Teaching Assistant</li>
+        <li class="list-group-item">Research Intern</li>
+        <li class="list-group-item">Software Engineer Intern</li>
+    </ul>  
+        
+      <!-- FOOTER -->
+      <hr />
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2019 Personal Privacy.</p>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
