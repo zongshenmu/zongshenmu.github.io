@@ -1,0 +1,15 @@
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.carousel{
+    height: 360px;
+}
+.carousel .item{
+    height: 360px;
+}
+.carousel img{
+    width: 100%;
+}
